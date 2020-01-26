@@ -13,6 +13,8 @@
 		256A1BAB23DE16AF0005CABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256A1BAA23DE16AF0005CABB /* Assets.xcassets */; };
 		256A1BAE23DE16AF0005CABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256A1BAD23DE16AF0005CABB /* Preview Assets.xcassets */; };
 		256A1BB123DE16AF0005CABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256A1BAF23DE16AF0005CABB /* LaunchScreen.storyboard */; };
+		256A1BB923DE16F50005CABB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A1BB823DE16F50005CABB /* ImageSaver.swift */; };
+		256A1BBB23DE17130005CABB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A1BBA23DE17130005CABB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		256A1BAD23DE16AF0005CABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		256A1BB023DE16AF0005CABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256A1BB223DE16AF0005CABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256A1BB823DE16F50005CABB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		256A1BBA23DE17130005CABB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				256A1BA423DE16AE0005CABB /* AppDelegate.swift */,
 				256A1BA623DE16AE0005CABB /* SceneDelegate.swift */,
 				256A1BA823DE16AE0005CABB /* ContentView.swift */,
+				256A1BB823DE16F50005CABB /* ImageSaver.swift */,
+				256A1BBA23DE17130005CABB /* ImagePicker.swift */,
 				256A1BAA23DE16AF0005CABB /* Assets.xcassets */,
 				256A1BAF23DE16AF0005CABB /* LaunchScreen.storyboard */,
 				256A1BB223DE16AF0005CABB /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				256A1BA523DE16AE0005CABB /* AppDelegate.swift in Sources */,
 				256A1BA723DE16AE0005CABB /* SceneDelegate.swift in Sources */,
+				256A1BBB23DE17130005CABB /* ImagePicker.swift in Sources */,
 				256A1BA923DE16AE0005CABB /* ContentView.swift in Sources */,
+				256A1BB923DE16F50005CABB /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
